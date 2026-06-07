@@ -104,6 +104,9 @@ class Scanner:
             "info_leak": ("modules.info_leak", "InfoLeakModule"),
             "cmd_injection": ("modules.cmd_injection", "CmdInjectionModule"),
             "file_include": ("modules.file_include", "FileIncludeModule"),
+            "ssrf": ("modules.ssrf", "SSRFModule"),
+            "xxe": ("modules.xxe", "XXEModule"),
+            "deserialization": ("modules.deserialization", "DeserializationModule"),
         }
 
         loaded = {}
