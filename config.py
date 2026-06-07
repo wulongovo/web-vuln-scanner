@@ -40,4 +40,7 @@ ENABLED_MODULES = [
     "info_leak",
     "cmd_injection",
     "file_include",
+    "ssrf",
+    "xxe",
+    "deserialization",
 ]
